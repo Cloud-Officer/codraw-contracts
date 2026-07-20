@@ -5,5 +5,5 @@ A set of abstractions (interfaces and contracts) extracted out of the codraw com
 ## Installation
 
 ```bash
-composer require codraw/
+composer require codraw/contracts
 ```
