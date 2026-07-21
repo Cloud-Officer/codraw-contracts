@@ -1,5 +1,5 @@
 {
-    "name": "draw/contracts",
+    "name": "codraw/contracts",
     "description": "A set of abstractions extracted out of the Draw components",
     "license": "MIT",
     "type": "library",
@@ -22,5 +22,8 @@
         "branch-alias": {
             "dev-master": "0.38-dev"
         }
+    },
+    "replace": {
+        "draw/contracts": "self.version"
     }
 }
