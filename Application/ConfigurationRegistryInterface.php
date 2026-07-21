@@ -16,7 +16,7 @@ interface ConfigurationRegistryInterface
     /**
      * Set the configuration value.
      *
-     * The value is expected to be json_encoded
+     * The value must be JSON-serializable; implementations are responsible for encoding it if needed.
      *
      * @throws ConfigurationIsNotAccessibleException
      */

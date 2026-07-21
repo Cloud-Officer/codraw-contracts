@@ -13,11 +13,11 @@ interface EnvelopeFinderInterface
     public function findById(string $messageId): Envelope;
 
     /**
-     * Return all envelop that match all tags.
+     * Return all envelopes that match all the tags.
      *
-     * @param array|string[] $tags
+     * @param string[] $tags
      *
-     * @return array|Envelope[]
+     * @return Envelope[]
      */
     public function findByTags(array $tags): array;
 }

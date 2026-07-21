@@ -11,6 +11,18 @@
         "interoperability",
         "standards"
     ],
+    "require": {
+        "php": "^8.5",
+        "psr/container": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "symfony/messenger": "^6.4.0",
+        "symfony/process": "^6.4.0"
+    },
+    "suggest": {
+        "symfony/messenger": "To use the Messenger related contracts",
+        "symfony/process": "To use the ProcessFactoryInterface"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
